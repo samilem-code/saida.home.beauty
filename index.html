@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saida Home Beauty | Luxury Skincare</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{font-family:'Poppins',sans-serif;background:#fdf6f0;color:#222;overflow-x:hidden;}
+
+/* HEADER */
+header{position:fixed;top:0;width:100%;background:rgba(255,255,255,0.95);display:flex;justify-content:space-between;align-items:center;padding:20px 8%;z-index:1000;box-shadow:0 5px 20px rgba(0,0,0,.1);transition:all .3s ease;}
+.logo{font-family:'Playfair Display',serif;font-size:32px;color:#a6785c;font-weight:700;}
+nav a{margin-left:25px;text-decoration:none;color:#222;font-weight:500;transition:.3s;}
+nav a:hover{color:#a6785c;}
+
+/* HERO */
+.hero{height:90vh;display:flex;justify-content:center;align-items:center;text-align:center;position:relative;overflow:hidden;background:linear-gradient(135deg,#ffe5d9,#ffd6c4,#ffc3a0);}
+.hero h1{font-family:'Playfair Display',serif;font-size:64px;color:#a6785c;animation:fadeUp 1s ease forwards;position:relative;}
+.hero p{margin:20px auto;font-size:22px;max-width:700px;color:#555;animation:fadeUp 1.3s ease forwards;position:relative;}
+.hero a{display:inline-block;padding:16px 40px;margin-top:25px;background:#a6785c;color:#fff;border-radius:50px;text-decoration:none;font-weight:500;animation:fadeUp 1.6s ease forwards;transition:.3s;}
+.hero a:hover{transform:scale(1.05);}
+
+/* ABOUT */
+.about{padding:120px 8%;text-align:center;background:#fff;}
+.about h2{font-family:'Playfair Display',serif;font-size:40px;margin-bottom:20px;color:#a6785c;}
+.about p{max-width:800px;margin:0 auto;color:#555;font-size:18px;line-height:1.7;}
+
+/* CONTACT */
+.contact{padding:80px 8%;text-align:center;background:#fdf6f0;}
+.contact h2{font-family:'Playfair Display',serif;font-size:36px;margin-bottom:25px;color:#a6785c;}
+.contact p{font-size:18px;color:#555;margin-bottom:10px;}
+.contact a{color:#a6785c;text-decoration:none;transition:.3s;}
+.contact a:hover{color:#222;}
+
+/* INSTAGRAM FLOAT */
+.insta-btn{position:fixed;bottom:25px;right:25px;background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);color:#fff;padding:16px 20px;border-radius:50px;text-decoration:none;font-weight:500;box-shadow:0 10px 25px rgba(0,0,0,.3);z-index:1000;transition:.3s;}
+.insta-btn:hover{transform:scale(1.1);}
+
+/* FOOTER */
+footer{background:#fff;padding:25px;text-align:center;font-size:14px;color:#555;box-shadow:0 -5px 20px rgba(0,0,0,.05);}
+
+/* ANIMATION */
+@keyframes fadeUp{from{opacity:0;transform:translateY(40px);}to{opacity:1;transform:translateY(0);}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Saida Home Beauty</div>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="hero">
+  <div>
+    <h1>Luxury Handmade Skincare</h1>
+    <p>100% Natural Products from Agadir – Handmade with Love & Care</p>
+    <a href="#contact">Get in Touch</a>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <h2>About Saida Home Beauty</h2>
+  <p>Saida Home Beauty is a one-year-old premium brand based in Agadir, Morocco. We create colorful, handmade skincare and body care products using only 100% natural ingredients. Our products are carefully crafted to give you luxury, comfort, and a glowing experience every day.</p>
+</section>
+
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <p>📧 Email: <a href="mailto:saidahomebeauty@gmail.com">saidahomebeauty@gmail.com</a></p>
+  <p>📱 WhatsApp: <a href="https://wa.me/212625678099">+212 625-678099</a></p>
+  <p>📍 Location: Agadir, Morocco</p>
+  <p>📸 Instagram: <a href="https://instagram.com/saida.home.beauty" target="_blank">@saida.home.beauty</a></p>
+</section>
+
+<footer>© 2026 Saida Home Beauty — Luxury Handmade Skincare & Body Care</footer>
+
+<a href="https://instagram.com/saida.home.beauty" target="_blank" class="insta-btn">Instagram</a>
+
+</body>
+</html>
